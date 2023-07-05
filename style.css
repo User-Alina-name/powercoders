@@ -1,0 +1,113 @@
+@media (max-width: 780px) {
+  .project {
+    padding: 20px !important;
+  }
+}
+
+:root {
+  --bg-color: rgb(201, 255, 245);
+  --shadow-color: rgb(162, 162, 162);
+  --main-color: #212529;
+}
+
+/* navbar */
+
+.nav-link {
+  color: white !important;
+  padding: 0 20px 0 20px;
+  font-size: 20px;
+  transition: all 0ms ease-in-out;
+  font-weight: 200;
+}
+
+.nav-link:hover {
+  color: var(--bg-color) !important;
+}
+
+.nav-link:focus {
+  color: var(--bg-color);
+}
+
+.navbar .container-fluid {
+  justify-content: center;
+}
+
+.bg-dark {
+  opacity: 80%;
+}
+
+/* context info */
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: var(--shadow-color);
+  text-shadow: 2px 2px 2px var(--bg-color);
+}
+
+.container {
+  padding: 100px 0 100px 0;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+
+  text-align: center;
+  font-weight: 200 !important;
+  color: var(--main-color);
+  text-shadow: 2px 2px 2px var(--bg-color);
+  padding: 10px;
+}
+
+img {
+  box-shadow: 0 0 6px 2px var(--shadow-color);
+  border-radius: 8px;
+}
+
+footer {
+  background-color: var(--main-color);
+  opacity: 80%;
+  color: white;
+  text-align: center;
+  padding-top: 16px;
+  font-weight: 200;
+}
+
+.footer-contact {
+  color: white;
+}
+
+.footer-contact:hover {
+  color: var(--bg-color);
+}
+
+.row {
+  text-align: center;
+  box-shadow: 0 0 6px 2px var(--shadow-color);
+  background-color: var(--bg-color);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.text {
+  text-align: justify;
+  font-weight: 200;
+}
+
+.project {
+  padding: 40px 160px 40px 160px;
+}
+
+.descr {
+  text-align: center !important;
+  font-weight: 200;
+}
+
+.contact {
+  color: var(--main-color);
+  font-weight: 200;
+}
+.contact:hover {
+  color: var(--bg-color);
+  text-shadow: 1px 1px 1px var(--main-color);
+}
