@@ -10,7 +10,7 @@
   }
 
   a.nav-link {
-    font-size: 14px;
+    font-size: 18px;
     padding: 0 5px 0 5px;
   }
 
@@ -19,11 +19,15 @@
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   h1 {
-    font-size: 20px;
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 14px;
   }
 
   footer.fixed-bottom {
@@ -43,9 +47,7 @@
   --main-color: #212529;
 }
 
-.wrapper {
-  width: ;
-}
+
 
 /* navbar */
 
